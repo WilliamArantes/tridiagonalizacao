@@ -47,3 +47,18 @@ int main(){
 			}
 		printf("\n");
 		}
+//Fazendo a Substituição Reversa
+
+	V[n] = M[n][n+1]/M[n][n];
+
+	for(i=n-1;i>=1;i--){
+		soma = 0;
+
+		for(j=i+1;j<=n;j++){
+
+			soma = soma+M[i][j]*V[j];
+		}
+
+			V[i] = (M[i][n+1]-soma)/M[i][i];
+	}
+
