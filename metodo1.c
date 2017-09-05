@@ -38,3 +38,12 @@ int main(){
 				}
 			}
 		}
+//Mostrando a Matriz Escalonada
+
+	printf("\nMatriz Escalonada\n");
+		for(i=1;i<=n;i++){
+			for(k=1;k<=n+1;k++){
+				printf("%.1f ", M[i][k]);
+			}
+		printf("\n");
+		}
