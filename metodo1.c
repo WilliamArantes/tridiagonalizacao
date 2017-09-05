@@ -26,3 +26,15 @@ int main(){
 			        }
 			printf("\n");
 			}
+//Escalonando a Matriz
+
+		for(j=1;j<=n;j++){
+			for(i=1;i<=n;i++){
+				if(i>j){
+					c = -(M[i][j]/M[j][j]);
+			for(k=1;k<=n+1;k++){
+					M[i][k] = (c*M[j][k])+M[i][k];
+			}
+				}
+			}
+		}
