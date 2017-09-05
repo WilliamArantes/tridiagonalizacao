@@ -17,3 +17,12 @@ int main(){
 
 			printf("\n");
 			}
+//Imprimindo a Matriz
+
+	printf("\nMatriz\n");
+		for(i=1;i<=n;i++){
+			for(j=1;j<=n+1;j++){
+				printf("%.1f ", M[i][j]);
+			        }
+			printf("\n");
+			}
