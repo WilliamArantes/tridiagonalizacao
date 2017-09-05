@@ -62,3 +62,14 @@ int main(){
 			V[i] = (M[i][n+1]-soma)/M[i][i];
 	}
 
+//Imprimindo a Solução
+
+	printf("\nA solução e: \n");
+
+	for(i=1;i<=n;i++)
+	{
+		printf("\nx%d = %.1f\t",i,V[i]);
+	}
+
+}
+
